@@ -55,6 +55,10 @@ Install the following packages with their dependencies.
 - ``inkscape``
 - ``Open Sans`` font type
 
+You can install all the dependencies with: 
+
+  $ sudo apt-get install rst2pdf gawk make graphviz php5 inkscape python-docutils python-sphinx
+
 You also need the "Open Source" font type.
 To check whether you have it, type ``fc-match "Open Sans"`` in the terminal.
 The command should output ``OpenSans-Regular.ttf: "Open Sans" "Regular"``.
