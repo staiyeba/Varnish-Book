@@ -55,9 +55,10 @@ Install the following packages with their dependencies.
 - ``inkscape``
 - ``Open Sans`` font type
 
-You can install all the dependencies with::
+You can install latest version of sphinx with::
 
-  $ sudo apt-get install rst2pdf gawk git make graphviz php5 python-sphinx python-docutils inkscape
+  $ sudo apt-get install python-pip
+  $ sudo pip install -U Sphinx
 
 You also need the "Open Source" font type.
 To check whether you have it, type ``fc-match "Open Sans"`` in the terminal.
