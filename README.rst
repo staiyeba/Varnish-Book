@@ -57,7 +57,7 @@ Install the following packages with their dependencies.
 
 You can install all the dependencies with::
 
-  $ sudo apt-get install rst2pdf gawk make graphviz php5 inkscape python-docutils python-sphinx
+  $ sudo apt-get install rst2pdf gawk git make graphviz php5 python-sphinx python-docutils inkscape
 
 You also need the "Open Source" font type.
 To check whether you have it, type ``fc-match "Open Sans"`` in the terminal.
